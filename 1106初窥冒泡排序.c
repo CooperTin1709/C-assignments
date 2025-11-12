@@ -9,7 +9,7 @@ int main(){
     }
     for(int k=0;k<NUM-1;k++){//比较的轮次,共比较NUM-1轮
         for(j=0;j<NUM-k;j++){
-            if(a[j]<a[j+1]){
+            if(a[j]<a[j+1]){//从大到小
                 t1=a[j];//交换数字
                 a[j]=a[j+1];
                 a[j+1]=t1;
